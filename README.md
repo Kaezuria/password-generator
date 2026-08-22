@@ -1,52 +1,52 @@
-# Générateur de mot de passe (C++)
+# Password Generator (C++)
 
-Un petit générateur de mot de passe en ligne de commande, écrit en C++. Tu choisis la longueur et les types de caractères à inclure (majuscules, chiffres, caractères spéciaux), et il génère un mot de passe aléatoire.
+A small command-line password generator written in C++. You choose the length and which character types to include (uppercase, digits, special characters), and it generates a random password.
 
-## Fonctionnalités
+## Features
 
-- Longueur personnalisable
-- Minuscules incluses par défaut
-- Choix d'inclure ou non : majuscules, chiffres, caractères spéciaux
-- Génération aléatoire de bonne qualité (`std::mt19937`)
+- Customizable length
+- Lowercase letters included by default
+- Optional: uppercase letters, digits, special characters
+- High-quality random generation (`std::mt19937`)
 
-## Prérequis
+## Requirements
 
-- Un compilateur C++ supportant C++17 (`g++` ou `clang++`)
+- A C++ compiler supporting C++17 (`g++` or `clang++`)
 
-## Compilation
+## Build
 
 ```bash
-g++ -std=c++17 generateur_mdp.cpp -o generateur_mdp
+g++ -std=c++17 password_generator.cpp -o password_generator
 ```
 
-Sur Termux (Android), remplace `g++` par `clang++` :
+On Termux (Android), use `clang++` instead:
 
 ```bash
 pkg install clang
-clang++ -std=c++17 generateur_mdp.cpp -o generateur_mdp
+clang++ -std=c++17 password_generator.cpp -o password_generator
 ```
 
-## Utilisation
+## Usage
 
 ```bash
-./generateur_mdp
+./password_generator
 ```
 
-Le programme te demande ensuite :
+The program will then ask you:
 
 ```
-Longueur du mot de passe : 16
-Inclure des majuscules ? (o/n) : o
-Inclure des chiffres ? (o/n) : o
-Inclure des caracteres speciaux ? (o/n) : o
+Password length: 16
+Include uppercase letters? (y/n): y
+Include digits? (y/n): y
+Include special characters? (y/n): y
 
-Mot de passe genere : Xk9#mPq2$vLwT8@z
+Generated password: Xk9#mPq2$vLwT8@z
 ```
 
-## Auteur
+## Author
 
-Créé par **SyntaxCrash**
+Created by **SyntaxCrash**
 
-## Licence
+## License
 
-Libre d'utilisation, modification et distribution.
+Free to use, modify, and distribute.
