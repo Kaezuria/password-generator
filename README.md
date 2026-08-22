@@ -13,6 +13,15 @@ A small command-line password generator written in C++. You choose the length an
 
 - A C++ compiler supporting C++17 (`g++` or `clang++`)
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SyntaxCrash/password-generator.git
+cd password-generator
+```
+
 ## Build
 
 ```bash
