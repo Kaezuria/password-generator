@@ -18,7 +18,7 @@ A small command-line password generator written in C++. You choose the length an
 Clone the repository:
 
 ```bash
-git clone https://github.com/SyntaxCrash/password-generator.git
+git clone https://github.com/Kaezuria/password-generator.git
 cd password-generator
 ```
 
@@ -54,7 +54,7 @@ Generated password: Xk9#mPq2$vLwT8@z
 
 ## Author
 
-Created by **SyntaxCrash**
+Created by **Kaezuria**
 
 ## License
 
